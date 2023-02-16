@@ -1,0 +1,47 @@
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #3d3f42;
+}
+
+.logo {
+  width: 150px;
+}
+
+.emoji-icon {
+  width: 40px;
+  position: relative;
+  top: 2px;
+}
+
+a {
+  color: #5393fe;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  body {
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  body {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
